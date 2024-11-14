@@ -52,6 +52,17 @@ li a:focus {
     cursor: pointer;
     z-index: -1;
 }
+.formRange::-moz-range-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    box-shadow: -810px 0 0 800px #AEAEAE;
+    border: 2px solid #AEAEAE;
+    background: #FFFFFF;
+    cursor: pointer;
+    z-index: -1;
+}
 .card img {
     height: 340.42px;
 }
